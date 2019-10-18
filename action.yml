@@ -1,0 +1,13 @@
+name: 'Setup Go Actions'
+description: 'Setup a Go Actions environment and add it to the PATH, additionally providing proxy support'
+author: 'Yusuke KUOKA'
+inputs: 
+  go-actions-version:
+    description: 'The Go Actions version to download (if necessary) and use. Example: 1.9.3'
+    default: '0.5.0'
+runs:
+  using: 'node12'
+  main: 'lib/setup-actions.js'
+branding:
+  icon: octagon
+  color: orange
