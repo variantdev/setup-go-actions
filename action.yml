@@ -4,7 +4,7 @@ author: 'Yusuke KUOKA'
 inputs: 
   go-actions-version:
     description: 'The Go Actions version to download (if necessary) and use. Example: 1.9.3'
-    default: '0.5.0'
+    default: '0.5.1'
 runs:
   using: 'node12'
   main: 'lib/setup-actions.js'
