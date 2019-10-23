@@ -94,3 +94,4 @@ typings/
 # Editorws and IDEs
 *~
 .idea
+*.iml
